@@ -1,0 +1,86 @@
+.home {
+    width: 100%;
+    border-right: 1.3px solid #E4EAED;
+    border-left: 1.3px solid #E4EAED;
+}
+
+.write-tweet {
+    width: 100%;
+    padding: 2% 5%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1.3px solid #E4EAED;
+}
+
+#my-profile-pic {
+    width: 10%;
+    height: 5%;
+    border-radius: 50%;
+    margin-right: 2%;
+}
+
+.write {
+    width: 90%;
+    margin: 1%;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+}
+
+.tweet-input {
+    padding: 0 0 8% 0;
+    outline: none;
+    white-space: normal;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#tweet-button {
+    width: 15%;
+    background-color: #1DA1F2;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 0;
+}
+
+.section-pic-div {
+    width: 8%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0%;
+}
+
+#section-pic {
+    height: 45%;
+    margin-right: 30%;
+    margin-top: 40%;
+    margin-bottom: 0%;
+}
+
+.home-header {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1.3px solid #E4EAED;
+    justify-content: space-between;
+}
+
+.home-header h3 {
+    font-weight: bold;
+    padding: 2% 5%;
+}
+
+#header-pic {
+    width: 4%;
+    height: 4%;
+    margin: 2% 5%;
+}

@@ -1,0 +1,38 @@
+.signup-container {
+    width: 40%;
+    margin: auto;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-container h2 {
+    margin-top: 8%;
+    font-size: x-large;
+
+}
+
+.signup-container img {
+    width: 10%;
+    margin: auto;
+
+}
+
+.signup-container input {
+    border-radius: 5px;
+    padding: 15px 20px;
+    background-color: #ffffff;
+    margin-bottom: 4%;
+    border: 1.3px solid #E4EAED;
+    width: 100%;
+}
+
+#signup {
+    margin-top: 8%;
+    width: 100%;
+    background-color: #1DA1F2;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
