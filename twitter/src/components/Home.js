@@ -7,13 +7,6 @@ import { useForm } from "react-hook-form";
 
 const Home = () => {
   const { user, token, tweetList, setTweetList } = useUser();
-  const [tweet, setTweet] = useState({
-    content: "",
-    user: user,
-    likes: [],
-    retweets: [],
-    comments: [],
-  });
 
   const {
     register,
